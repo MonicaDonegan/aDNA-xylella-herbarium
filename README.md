@@ -9,7 +9,7 @@ List of additional softwares and dependencies used in the pipeline:
 4. [ClonalFrameML](https://github.com/xavierdidelot/ClonalFrameML) 
 5. [HomoplasmyFinder](https://github.com/JosephCrispell/homoplasyFinder)
 
-The steps in this pipelines include: 
+The steps in this pipeline (pipeline_panaroo_raxml.sh) include: 
 1. Run a pan-genome alignment with panaroo and extract SNPs with SNP-sites.
 2. Run an initial maximum likelihood tree with RAxML.
 3. Infer recombinant sites with both ClonalFrameML and HomoplasyFinder, using the best tree from RAxML.
